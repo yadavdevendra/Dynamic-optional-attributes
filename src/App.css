@@ -1,0 +1,62 @@
+.App {
+  width: 700px;
+  min-height: max-content;
+  margin-block: 20px;
+  padding: 20px;
+  border: 2px solid #dfdfdf;
+  border-radius: 10px;
+  box-shadow: 0 0 15px 5px #b8b8b869;
+}
+
+.sms {
+  margin-block: 20px;
+  padding: 10px;
+  background-color: rgb(157, 164, 157);
+  border: 2px solid rgb(238, 239, 237);
+  border-radius: 10px;
+}
+
+.title {
+  font-size: 12px;
+  margin-inline: 10pxrem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.selectopt {
+  position: relative;
+  padding-block: 5px;
+  border-bottom: 1px solid #dfdfdf;
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.del {
+  margin-right: 10px;
+  text-align: right;
+}
+
+.section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.select {
+  flex: 1;
+  margin: 15px;
+}
+
+.shopify-select {
+  margin: 15px;
+}
+
+option {
+  margin-bottom: 20px;
+  height: 50px;
+}
+.sec {
+  margin-top: 5px;
+}
