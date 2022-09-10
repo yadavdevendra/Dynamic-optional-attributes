@@ -17,7 +17,7 @@ function ChildComponents({ id, components, handleComponent }) {
       return { ...element };
     });
     handleComponent(newComponentList);
-  });
+  },[firstval, SecondOpt, Third]);
 
   const disablevalue = (option) => {
     const found = components.find((item) => item.firstval === option);
